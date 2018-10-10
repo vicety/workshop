@@ -1,0 +1,1627 @@
+bua  bur 
+nab  pol 
+nab  bos  pol 
+fot  spo 
+nab  sop  zak 
+prg  zem  ene  efm 
+ekl  ene  mak  for  pol 
+ene  dpr  zak 
+ene  efm 
+bos  ptr  zem  obo  zdr 
+ene  efm 
+fot  spo 
+ene 
+fot  spo 
+ekl  ene 
+odb  ene  efm 
+aut  ekl  ene  efm 
+ekl  ene  for  pol 
+ene  efm 
+fot  spo 
+odb  ene 
+bua  bur 
+bua  fin  bur  mak 
+nab  odb  for  pol 
+fot  spo 
+fot  spo 
+bua  bur 
+fot  spo 
+nab  spo 
+ekl  ene 
+ene 
+bua  bur 
+zem  ene  sta  for  pol 
+zem  ene  efm 
+buk  che  bur  ene 
+ptr  eur  zdr  for  pol 
+fot  spo 
+fot  spo 
+buk  che  bur  ene 
+ene  efm 
+ptr  obo  for  pol 
+nab  kul  mag 
+ptr  obo 
+nab  odb  for  pol 
+fot  spo  mag 
+bua  bur 
+nab  den  kul 
+nab  zdr 
+bua  bur 
+ptr  zem  zdr 
+ene  zak 
+ekl  ene  efm 
+ekl  ene  for  pol 
+nab  for  pol 
+ene 
+zem  ene  sta  pol 
+pit  ekl  ene  zak  efm 
+ene  sta 
+ptr  zem  bur 
+ptr  zdr 
+ekl  ene  efm  pol 
+ptr  spl  mag 
+buk  bur  ene 
+nab  kul 
+ene 
+ptr  zem  bur 
+fot  spo 
+tur  ene  slz 
+bua  bur 
+bua  bup  bur 
+ptr  den  efm 
+bos  ptr  obo 
+ptr  zak  efm 
+ekl  ene 
+ene  efm 
+ene  efm  pol 
+ptr  tur  spl  slz  mag 
+bos  prg  zem  eur  ekl  ene 
+ene  efm 
+zem  eur  ene  sta 
+ene 
+fot  spo 
+ene  zak  pol 
+ene  sta  efm 
+ptr  eur  zdr 
+ene  for  pol 
+ekl  ene 
+zem  ekl  ene  sta  pol 
+bua  bur 
+ene  efm 
+ptr  obo  zdr 
+bos  eur  ekl  ene 
+ene  efm 
+zem  eur  ekl  ene 
+ene  efm 
+ene  efm 
+fot  spo 
+ene  efm 
+bua  bur 
+ene  pol 
+nab  kul 
+bos  ptr  zem  zdr 
+fot  spo 
+fot  spo 
+ene 
+nab  pol 
+fot  spo 
+bua  bur 
+aut  ene 
+bos  ptr  zem  obo  zdr  for  pol 
+zem  ene  efm 
+ptr  obo  zak 
+fot  spo 
+buk  bur  ene 
+fot  spo 
+ptr  spl  mag 
+prg  med  ene 
+fot  spo 
+ekl  ene  for  efm  pol 
+ene  efm 
+zem  ekl  ene 
+buk  che  bur  ene 
+ene  efm 
+eur  ekl  ene 
+bua  bur 
+ekl  ene 
+che  ptr  zem  efm 
+buk  che  bur  ene 
+bua  buk  che  eur  bur  zak  pol 
+ptr  obo  zdr  efm 
+buk  bur  ene 
+zem  ekl  ene  sta  pol 
+ekl  ene  sta 
+nab  prg  spl  kul  mag 
+ptr  zak 
+fot  spo 
+ptr  kul  mag 
+bua  bur 
+zem  ekl  ene 
+buk  che  bur  ene 
+pit  ene 
+nab  kul  mag  pol 
+fot  spo 
+bua  buk  bur  ene  efm 
+bua  buk  che  bur  zak  pol 
+buk  che  bur  ene 
+fot  spo 
+nab  for  pol 
+zem  ene  efm 
+ptr  obo  for  pol 
+eur  ekl  ene  zak  efm 
+ptr  eur  zdr 
+bua  bur 
+ene  efm 
+bua  bur 
+nab  mag 
+ene 
+buk  che  bur  ene 
+bua  bup  bur 
+ptr  spl  mag 
+buk  che  bur  ene 
+bua  bur 
+ene 
+ene  zak  efm 
+ptr  zdr 
+ptr  sko  spl  mag 
+ptr  zem  zdr 
+nab  zak  pol 
+ene  efm 
+ene  efm 
+ene  zak  efm 
+odb  ene  efm 
+bua  bur 
+buk  che  bur  ene 
+ene  efm 
+ene  efm 
+ptr  eur  zdr 
+ekl  ene  for  pol 
+ekl  ene 
+nab  spl  mag 
+ptr  zem  zdr 
+buk  che  bur  ene 
+ene 
+ptr  eur  zdr 
+buk  che  bur  ene 
+ene  efm 
+fot  spo 
+ene  efm 
+ene  efm 
+ene  sta  dpr  pol 
+zem  met  ene  sta 
+ene  efm 
+ekl  ene  for  pol 
+ptr  eur  zdr 
+ene  pol 
+ene 
+bos  ene  efm 
+aut  ekl  ene  efm 
+ptr  zem  obo 
+buk  che  bur  ene 
+fot  spo 
+nab  den  kul 
+ptr  zem  den 
+ptr  pol 
+ptr  eur  zdr 
+che  ptr  zem  efm 
+odb  ene  efm 
+ptr  obo  zak 
+bua  bur 
+ene  efm 
+nab  mag  zak 
+zem  ene 
+ptr  zem  zdr 
+ene  pol 
+ptr  den 
+bua  bup  bur 
+bos  ptr  zem  obo  zdr 
+nab  zak 
+bua  bur 
+eur  ekl  ene 
+ptr  spl  mag 
+ptr  zdr 
+ptr  eur  zdr  for  pol 
+bua  bur 
+nab  for  zak  pol 
+obo  ene  pol 
+ene  efm 
+ene  efm 
+bua  bup  bur 
+ene  efm 
+tur  zem  spl  ene  slz  dpr 
+buk  che  bur  ene 
+ene  for  zak  pol 
+ekl  ene 
+eur  ekl  ene 
+buk  che  bur  ene 
+ekl  ene 
+odb  ene  efm 
+buk  che  bur  ene 
+ptr  zdr 
+bua  bur 
+eur  ene  for  pol 
+ene  efm 
+ene  zak  efm 
+buk  bur  ene 
+ene  efm 
+bos  ptr  zem  zdr 
+ene  efm 
+ptr  zem  obo  zdr  for  pol 
+bua  bup  bur 
+ene 
+zem  met  ene  efm 
+bos  ptr  zem  zdr 
+ptr  sop  den  pol 
+ekl  ene  for  pol 
+bua  bur 
+ekl  ene  for  efm  pol 
+buk  che  bur  ene 
+ptr  zem  eur  zdr 
+bua  bur 
+fot  spo  zak 
+prg  zem  ekl  ene  sta  pol 
+nab  zak  pol 
+buk  che  bur  ene 
+ene  efm 
+bua  bup  bur 
+zem  ekl  ene 
+buk  che  bur  ene 
+ene  efm 
+ptr  zak  pol 
+nab  for  pol 
+buk  che  bur  ene 
+buk  che  bur  ene 
+buk  che  bur  ene 
+buk  che  bur  ene 
+nab  kul 
+ptr  eur  zdr 
+ptr  spl  mag 
+nab  sop  den 
+bua  bur 
+fot  spo  pol 
+zem  ene  efm 
+nab  spl  spo  mag 
+ene  zak  pol 
+ptr  obo  zdr  efm 
+ptr  zem  eur  zdr 
+bua  bur 
+ptr  zak 
+ptr  eur  zdr 
+ekl  ene  sta  for  pol 
+bua  bur 
+ene 
+ptr  obo  zdr 
+ene 
+zem  ene  efm  pol 
+buk  che  bur  ene 
+fin  ene  sta 
+fot  spo 
+ekl  ene 
+nab  kul  zak 
+bua  bup  bur 
+buk  che  bur  ene 
+nab  mag  zak 
+ene  efm 
+ekl  ene 
+ekl  ene  for  pol 
+prg  ptr  obo  zdr 
+ene  efm 
+ptr  zdr 
+ene  efm 
+ene 
+ekl  ene 
+buk  che  bur  ene 
+zem  ekl  ene  efm  pol 
+bua  bur 
+ptr  sop  mag 
+fot  spo 
+ene 
+ekl  ene  sta 
+ene  efm 
+zem  ene  zak 
+nab  mag  zak 
+bos  ptr  zem  zdr 
+ene 
+sko  ekl  ene 
+zem  eur  ekl  ene  sta 
+ekl  ene  efm 
+met  ene  efm 
+fot  spo  mag  zak 
+obo  ekl  ene  efm 
+ptr  eur  obo  zdr  efm 
+ene  efm 
+bua  pit  bur  efm 
+fot  spo 
+fot  spo  mag 
+bua  bur 
+ekl  ene 
+ekl  ene  zak  efm 
+ptr  eur  zdr  for  pol 
+ene  sta  pol 
+ptr  obo  zdr 
+bua  bur 
+ene  efm 
+nab  pol 
+eur  pit  ekl  ene  zak 
+ptr  eur  obo  zdr 
+bua  bur 
+zem  ene  sta  dpr 
+ptr  kul  mag 
+fot  spo 
+ptr  tur  eur  slz  zdr 
+nab  pol 
+ene  efm 
+nab  kul 
+bua  bup  bur 
+eur  ekl  ene 
+den  ekl  ene 
+prg  zem  ekl  ene  sta  pol 
+ekl  ene 
+ekl  ene  efm  pol 
+nab  zak 
+buk  che  bur  ene 
+ekl  ene  zak  efm 
+ptr  eur  obo  zdr 
+ptr  zem  ekl 
+ene  efm 
+ptr  zem  zdr 
+ptr  obo  zdr  efm 
+nab  kul  for  pol 
+fot  spo 
+nab  kul 
+ptr  zem  eur  obo 
+ptr  eur  zdr 
+zem  ene  efm  pol 
+zem  eur  ekl  ene  sta  pol 
+ptr  zem  zdr 
+zem  met  ene  sta  efm 
+ptr  eur  obo  zdr  efm 
+buk  che  bur  ene 
+buk  che  bur  ene 
+buk  che  bur  ene 
+ene  efm 
+ptr  zem  zdr 
+fot  spo  mag 
+ekl  ene  for  pol 
+ene  zak  efm 
+ene  efm 
+fot  spo 
+ekl  ene 
+ptr  tur  slz  mag 
+ptr  spl  mag 
+buk  che  bur  ene 
+bua  bup  bur 
+vat  nab  zdr 
+zem  ekl  ene  efm 
+bua  bup  bur 
+nab  kul 
+ene  pol 
+buk  che  bur  ene 
+ekl  ene  pol 
+ene  efm 
+ptr  den  efm 
+bos  ptr  zem  eur  zdr 
+ene 
+ene  efm 
+ekl  ene 
+ene  efm 
+nab  pol 
+aut  ekl  ene  for  pol 
+buk  che  bur  ene 
+ptr  obo  zdr 
+bua  bur 
+ene 
+fot  spo 
+ene 
+ptr  zem  zdr 
+bos  ptr  eur  zdr 
+ene 
+buk  bur  ene 
+nab  kul  pol 
+ekl  ene  sta 
+ekl  ene  efm 
+fot  spo 
+ene  efm 
+met  spl  ene  dpr 
+buk  che  bur  ene 
+fot  spo 
+bua  obo  bur  efm 
+fot  spo 
+ene  pol 
+fot  spo 
+ptr  eur  obo 
+ene  pol 
+bos  ekl  ene  sta  efm 
+ptr  obo  zak 
+bos  ptr  zem  eur  zdr 
+ene  efm 
+ptr  zdr 
+ptr  zem 
+ptr  obo  zdr 
+fot  spo 
+nab  pol 
+fot  spo 
+nab  spl  sta 
+ptr  eur  zdr 
+ene 
+bua  bup  bur 
+buk  che  bur  ene 
+bua  pit  bur  efm 
+ptr  mag  pol 
+ptr  den  zdr 
+nab  ptr  spl  mag 
+bos  ptr  obo  efm 
+nab  med  zak 
+ptr  spl  mag 
+bua  bup  bur 
+ene  pol 
+ptr  eur  zdr  for  pol 
+fot  spo 
+ptr  zem  zdr 
+ene 
+ene  sta  efm 
+ene  pol 
+zem  met  ene  efm  pol 
+nab  for  zak  pol 
+bua  bur 
+buk  che  bur  ene 
+ptr  eur  zdr 
+ekl  ene  sta 
+ene  kul  for  mag  pol 
+fot  spo 
+bua  bup  bur 
+ptr  obo  zdr 
+ptr  spl  mag 
+ene 
+fot  spo 
+ene 
+eur  ekl  ene  zak 
+ekl  ene 
+ene  efm 
+ene  zak  efm  pol 
+ekl  ene  efm  pol 
+ptr  obo  zdr 
+fot  spo 
+ekl  ene  efm  pol 
+ene  dpr  efm 
+fot  spo 
+eur  ekl  ene  zak  efm 
+ptr  zem  zdr 
+nab  zak  pol 
+buk  che  bur  ene 
+fot  spo 
+ptr  eur  zdr  for  pol 
+nab  kul  pol 
+ene 
+ptr  tur  spl  slz  mag 
+bos  ptr  eur  zdr 
+buk  che  bur  ene 
+nab  pol 
+ptr  tur  spl  slz  mag 
+buk  che  bur  ene 
+zem  ene 
+ekl  ene  pol 
+ptr  zem  zdr 
+nab  zak  pol 
+ene  sta 
+ptr  mag 
+buk  che  bur  ene 
+nab  zak 
+fot  spo 
+fot  spo 
+ekl  ene 
+ekl  ene  for  pol 
+ptr  den  efm 
+prg  ekl  ene  for  pol 
+bua  bur 
+aut  ekl  ene 
+bup  bur  ene  mag 
+fot  spo 
+ene  efm 
+fot  spo 
+ene  efm 
+vat  ptr  kul  mag 
+bua  bur 
+ene  efm 
+bua  bup  bur 
+zem  fin  ene  efm  pol 
+bua  bur 
+buk  che  bur  ene 
+zem  ene  efm 
+fot  spo 
+prg  ptr  eur  obo  zdr  efm 
+ene  pol 
+tlk  bua  pit  bur  efm 
+bos  ekl  ene  efm 
+ene  for  pol 
+fot  spo  zak 
+zem  ene 
+buk  che  bur  ene 
+zem  ene 
+nab  kul  pol 
+ene  efm 
+ptr  eur  obo  zdr 
+ene  pol 
+nab  sop  kul  mag 
+ene  efm 
+bua  bur 
+nab  sop 
+bua  bur 
+ekl  ene  for  pol 
+buk  che  bur  ene 
+ene  zak  efm 
+ene 
+eur  pit  ekl  ene  zak 
+nab  kul 
+fot  spo 
+bua  bur 
+obo  ene  efm 
+ptr  zdr 
+ptr  eur  obo  zdr 
+nab  for  pol 
+zem  ekl  ene  sta  pol 
+ptr  eur  zdr 
+nab  for  zak  pol 
+ptr  for  mag  pol 
+fot  spo 
+ene  efm 
+bua  bur 
+eur  ekl  ene 
+bos  ene  efm 
+buk  che  bur  ene 
+ptr  eur  zdr 
+ene  efm 
+zem  eur  ekl  ene 
+nab  zem  for  pol 
+ene 
+ene  mak  for  pol 
+nab  sop  spl  mag 
+ptr  spl  mag 
+zem  ene  sta 
+nab  for  pol 
+fot  spo 
+bos  ekl  ene 
+ptr  den  zak 
+ptr  obo 
+fot  spo 
+ene 
+che  ene  pol 
+bua  bup  bur 
+fot  spo 
+ene  for  pol 
+ene  efm 
+buk  che  bur  ene 
+fot  spo 
+ekl  ene  for  pol 
+ene 
+den  ekl  ene  efm 
+zem  ekl  ene 
+ene  efm 
+ptr  zdr 
+med  den  ene 
+ptr  eur  zdr  for  pol 
+ene  zak  efm 
+buk  che  bur  ene 
+fot  spo 
+ene  efm  pol 
+ptr  zem  zdr  efm 
+ptr  sop  zdr 
+ene  sta  efm 
+bua  bur 
+zem  met  ene  for  pol 
+fot  den  slz  spo  efm 
+eur  ekl  ene  zak 
+fot  ptr  eur  zdr  spo 
+ene  zak 
+nab  den  kul 
+ekl  ene  sta 
+buk  che  bur  ene 
+fot  spo 
+eur  ekl  ene 
+buk  che  bur  ene 
+zem  ekl  ene 
+zem  ene  sta  efm 
+ptr  eur  zdr  for  pol 
+ene  zak  efm 
+ptr  sop  eur  for  pol 
+obo  ene 
+zem  ene  efm 
+nab  for  pol 
+ptr  zdr 
+ptr  zem  zdr 
+ptr  eur  obo  zdr 
+bua  bup  bur 
+nab  kul 
+bua  bur  dpr  efm 
+buk  che  bur  ene 
+buk  che  bur  ene 
+bua  bup  bur 
+nab  sop 
+ptr  den  efm 
+nab  spl  kul  mag 
+zem  ekl  ene  sta  pol 
+buk  che  bur  ene 
+fot  spo 
+ene  efm 
+ptr  ekl  pol 
+zem  ekl  ene  sta  pol 
+fot  spo  mag 
+fot  spo 
+zem  ekl  ene 
+nab  mak  for  pol 
+buk  che  bur  ene 
+zem  ene  sta  efm 
+ekl  ene  for  pol 
+bua  pit  bur  efm 
+ene 
+buk  che  bur  ene 
+nab  mag 
+ene  efm 
+ene  efm 
+ptr  obo  zdr 
+zem  eur  ekl  ene  zak  pol 
+ptr  eur  obo  zdr 
+odb  ene  efm 
+prg  ptr  eur  obo  zdr  efm 
+ptr  eur  zdr 
+fot  spo 
+nab  eur  ene  sta  kul 
+zem  ekl  ene  pol 
+fot  spo 
+ptr  eur  obo 
+nab  sop  pol 
+ene  sta  efm 
+bua  aut  bur  efm 
+che  ptr  zem  efm 
+fot  spo  mag 
+ptr  zem  zdr 
+bos  ptr  zem  obo  zdr 
+nab  sop 
+ptr  obo  for  pol 
+ptr  sop 
+nab  mag 
+fot  spo 
+buk  che  bur  ene 
+nab  kul 
+ene 
+fot  spo 
+nab  zdr  for  pol 
+zem  spl  ene  kul  mag 
+ene 
+odb  ene  dpr  efm 
+ene  pol 
+tlk  bua  pit  bur  efm 
+ene  efm 
+bua  aut  bur 
+fot  spo 
+ekl  ene  zak  efm 
+bua  bur 
+ptr  zem  zdr  for  pol 
+aut  ekl  ene 
+nab  prg  sop  spl  spo  mag  pol 
+zem  met  ene  for  pol 
+bos  ptr  zem  obo  zdr 
+bua  bur 
+bua  bup  bur 
+ene 
+nab  for  pol 
+nab  den  kul 
+nab  dpr  mag  pol 
+ene  efm 
+nab  zak 
+ptr  zem  ekl 
+ptr  zem  eur  obo 
+fot  spo 
+fot  spo 
+fot  spo 
+met  ene  sta  efm 
+ptr  mag 
+bos  ptr  eur  zdr 
+ptr  eur  zdr 
+ene 
+tur  zem  spl  ene  slz  dpr 
+zem  ene  sta  pol 
+ene  efm  pol 
+ene  efm 
+bua  bur 
+fot  spo 
+zem  ekl  ene 
+ptr  eur  zdr 
+buk  che  bur  ene 
+buk  che  bur  ene 
+ptr  eur  obo  zdr 
+buk  che  bur  ene 
+ene  efm 
+met  ene 
+fot  spo 
+buk  che  bur  ene 
+ene  zak  pol 
+bua  bur 
+bua  bur 
+zem  ene  zak 
+fot  spo 
+bua  bur 
+bua  bur 
+zem  den  ene  efm 
+eur  ene  pol 
+nab  pol 
+nab  prg  spl  kul  mag 
+buk  che  bur  ene 
+ekl  ene  for  pol 
+ekl  ene 
+fot  spo 
+ptr  zem  eur  zdr 
+met  ene 
+bos  eur  ekl  ene  mak 
+ptr  zem  zdr 
+bua  bup  bur 
+bua  bup  bur 
+ptr  eur  obo  zdr 
+bua  bur  pol 
+nab  eur  ekl 
+zem  ekl  ene  efm 
+ekl  ene  for  pol 
+ene  for  pol 
+ekl  ene  for  pol 
+ekl  ene  sta 
+buk  che  bur  ene 
+ene 
+prg  ptr  obo  zdr 
+ptr  sta 
+ptr  zem  zdr 
+ene  efm 
+aut  ekl  ene  efm 
+bua  bup  bur 
+bua  bur 
+prg  zem  ene  efm 
+ptr  spl  mag  efm 
+ene  efm 
+ene  efm 
+ene  dpr 
+buk  che  bur  ene 
+fot  spo  mag 
+ene 
+bua  bup  bur 
+zem  ene  efm 
+tlk  bua  pit  bur  efm 
+ene  efm 
+nab  tur  slz  kul 
+nab  sop 
+eur  obo  ene  efm  pol 
+nab  kul 
+bos  ptr  eur  zdr 
+nab  for  pol 
+fot  med  spo  for  mag  zak  pol 
+ptr  zem  zdr 
+bua  bup  bur 
+med  den  ene  for  zak  pol 
+ptr  spl  mag 
+bua  bur 
+ptr  spl  mag 
+fot  spo 
+bos  eur  ekl  ene 
+ene  efm 
+fot  spo 
+obo  ene  pol 
+ptr  zdr 
+ekl  ene  efm 
+ene  efm 
+ptr  zem  obo 
+nab  prg  kul 
+bua  bur 
+buk  che  bur  ene 
+nab  den  kul 
+bua  bur 
+prg  zem  ekl  ene  sta  pol 
+ptr  fin  mak  pol 
+buk  che  bur  ene 
+zem  ene 
+ptr  spl  mag 
+nab  odb  for  pol 
+zem  ekl  ene  sta  pol 
+ekl  ene  for  pol 
+nab  mag 
+bua  bur 
+ene  zak  pol 
+bua  bup  bur 
+bos  ptr  zem  obo  zdr 
+zem  ekl  ene  sta  efm 
+ekl  ene  sta  for  pol 
+bua  fin  bur 
+ekl  ene  sta  mag 
+fot  spo 
+fot  spo 
+ptr  obo 
+bua  bur 
+ene 
+bua  bur 
+ene  efm 
+ekl  ene  efm  pol 
+ptr  spl  mag 
+fot  spo 
+vat  ekl  ene  efm 
+bua  bur 
+nab  sop 
+ene 
+eur  pit  ekl  ene  zak 
+ekl  ene 
+buk  che  bur  ene 
+fot  spo 
+ptr  obo  zdr 
+bos  ptr  zem  zdr  for  pol 
+bos  ptr  eur  zdr 
+nab  for  pol 
+buk  che  bur  ene 
+bua  bur 
+nab  tur  spl  slz  pol 
+fot  spo  mag 
+buk  che  bur  ene 
+nab  mak  for  pol 
+eur  ekl  ene  zak  efm 
+ptr  zem 
+zem  ene 
+pit  ekl  ene  zak 
+bua  bur 
+ene  zak  efm 
+bos  ene  efm 
+fot  spo 
+ptr  zem  den  zdr 
+ptr  eur  obo  zdr 
+buk  che  fin  bur  ene 
+nab  kul  for  pol 
+nab  pol 
+bua  bup  bur 
+ptr  zem  zdr 
+ptr  eur  obo  zdr 
+ene  efm  pol 
+bua  bup  bur 
+met  ene 
+bua  bup  bur 
+ptr  eur  obo  zdr 
+nab  pol 
+aut  ekl  ene  efm 
+ekl  ene  sta  pol 
+ptr  obo  zdr 
+buk  che  bur  ene 
+ptr  eur  zdr  for  pol 
+ene 
+prg  ptr  obo  zdr 
+ene 
+bua  bup  bur 
+zem  ekl  ene 
+bua  bur  pol 
+nab  kul 
+nab  pol 
+fot  spo 
+ene 
+ptr  eur  obo  zdr 
+zem  met  ekl  ene  efm 
+ptr  eur  obo  zdr  efm 
+ekl  ene 
+ptr  eur  zdr 
+ene  efm 
+prg  zem  ekl  ene  sta  pol 
+bua  bur 
+ene  efm 
+ptr  zdr 
+fot  spo 
+ptr  zem 
+pit  ekl  ene  zak 
+bua  bup  bur 
+bua  bur 
+bua  bur 
+ene  efm 
+ptr  obo  zdr 
+ekl  ene  sta 
+ene 
+bua  bup  bur 
+nab  mag  zak 
+fot  spo 
+nab  den  kul 
+nab  for  zak  pol 
+buk  che  bur  ene 
+ene  for  pol 
+ene  efm 
+fot  spo 
+ene  efm 
+zem  ekl  ene  sta  pol 
+buk  che  bur  ene 
+fot  spo 
+zem  eur  ekl  ene  sta  pol 
+zem  met  ene  efm 
+buk  che  bur  ene 
+ptr  eur  obo  zdr 
+eur  ekl  ene  zak 
+bua  bur 
+eur  ekl  ene  for  pol 
+ene  efm 
+ptr  zem  obo 
+bua  bur 
+ptr  zem  efm 
+eur  ekl  ene  zak 
+buk  che  bur  ene 
+bua  bur  sta  efm 
+ene 
+nab  for  zak  pol 
+bua  bur 
+fot  spo 
+ekl  ene 
+nab  kul 
+ene 
+fot  spo  mag 
+ekl  ene  zak  efm 
+buk  che  bur  ene 
+bua  bup  bur 
+fot  spo 
+ptr  sko 
+ene  efm 
+fin  ene  pol 
+ekl  ene  sta 
+bua  bur 
+nab  tur  spl  slz  mag 
+eur  ene 
+ene  efm 
+ptr  spl  mag 
+ekl  ene  efm  pol 
+buk  che  bur  ene 
+bua  bur 
+zem  ekl  ene  sta  pol 
+bua  obo  bur  efm 
+ene  zak 
+ptr  eur  zdr 
+nab  kul 
+obo  ene 
+fot  spo  zak 
+prg  ptr  obo  zdr 
+bua  bur 
+ene  efm 
+fot  spo 
+bua  bur 
+bos  ene  efm 
+ekl  ene 
+nab  zak  pol 
+eur  ene  for  pol 
+zem  ene  sta  pol 
+buk  che  bur  ene 
+ene  efm 
+ekl  ene  for  pol 
+den  ene  sta  efm 
+ene  zak  efm 
+ptr  eur  obo  zdr 
+nab  pol 
+nab  mag  zak 
+ekl  ene 
+ptr  zem  zdr 
+ptr  zak  pol 
+ene 
+bua  bur 
+ekl  ene 
+ptr  zem 
+fot  spo  zak 
+bua  bup  bur 
+bua  pit  bur  efm 
+ptr  zdr 
+ptr  obo  zdr  efm 
+ene  efm 
+bua  bur 
+eur  ekl  ene  zak 
+ene  zak  pol 
+bua  bur 
+zem  ene  sta  pol 
+ptr  zdr 
+bua  bur 
+buk  che  bur  ene 
+ekl  ene  zak 
+pit  ene 
+zem  ekl  ene  sta  pol 
+prg  med  pit  ene  efm 
+ene  efm 
+bua  obo  bur  efm 
+ptr  zem  eur  obo 
+ptr  zem  obo  zdr  for  pol 
+bua  bur 
+fot  spo 
+zem  ekl  ene  efm  pol 
+odb  ene  efm 
+ptr  spl  mag  pol 
+ene  efm 
+zem  ekl  ene 
+buk  che  bur  ene 
+ene 
+ene  efm 
+obo  ekl  ene  efm 
+zem  ekl  ene  sta  pol 
+zem  ene 
+ekl  ene  efm 
+bos  ptr  zem  zdr 
+ptr  eur  zdr  for  pol 
+pit  ekl  ene  zak 
+fot  spo 
+buk  che  bur  ene 
+ptr  zem  zdr 
+fot  spo 
+buk  che  bur  ene 
+nab  mag 
+ptr  sko 
+nab  zem  obo  ekl  for  pol 
+fot  spo 
+ene 
+fot  spo  mag  zak 
+ene  efm 
+ptr  eur  zdr  for  pol 
+zem  ene  efm 
+fot  spo 
+nab  kul  pol 
+ene  efm 
+zem  ene  efm 
+buk  che  bur  ene 
+fot  spo 
+zem  ene  efm 
+ene  efm 
+ptr  obo  zdr 
+bua  bur 
+ptr  zem  zdr 
+fot  spo 
+buk  che  bur  ene 
+che  ptr  zem  efm 
+nab  prg  spl  kul  mag 
+buk  che  bur  ene 
+bua  bur 
+bua  aut  bur  zak  efm 
+fot  spo 
+bos  eur  ekl  ene 
+vat  zem  ekl  ene  efm 
+nab  for  zak  pol 
+nab  sop 
+ene  zak  efm 
+ene 
+nab  for  pol 
+ene  efm 
+bos  ptr  zem  zdr 
+bua  bur 
+ene  for  pol 
+nab  med  for  pol 
+buk  che  bur  ene 
+ptr  zem  den  spl  mag  efm 
+fot  spo 
+ekl  ene  sta  pol 
+ene  pol 
+zem  ene  efm 
+ptr  tur  spl  slz  mag 
+ene  efm 
+ptr  zdr 
+bua  bur 
+nab  odb  for  pol 
+ene  efm 
+nab  pol 
+ekl  ene  for  pol 
+ptr  zem  eur  zdr 
+ene  pol 
+bos  ptr  eur  zdr 
+ptr  zem  zdr 
+ene  sta  efm 
+bos  ene  for  pol 
+ene  efm 
+ptr  spl  mag 
+fot  spo 
+ptr  zem  obo 
+ene  efm 
+ene 
+nab  sop  eur  sta 
+bua  bur 
+bua  bup  bur 
+ene  zak  efm 
+ptr  eur  zdr 
+bua  aut  bur  zak  efm 
+ptr  eur  obo  zdr 
+ene  efm 
+ene 
+nab  kul 
+ene  efm 
+ene 
+zem  ene 
+prg  zem  ene  dpr 
+nab  zak 
+zem  ene  efm 
+ene  efm 
+nab  zak 
+buk  che  bur  ene 
+bua  bup  bur 
+ptr  eur  obo  zdr 
+zem  ekl  ene 
+buk  che  bur  ene 
+nab  for  pol 
+ptr  spl  mag 
+nab  mag  zak 
+zem  ekl  ene  sta 
+ptr  zdr 
+ptr  eur  zdr 
+fot  spo 
+ene 
+ekl  ene 
+nab  sko 
+bua  buk  bur  ene  efm 
+zem  ene  sta  for  pol 
+bua  bur 
+ptr  zdr 
+tur  ene  slz 
+ene  efm 
+buk  che  bur  ene 
+ene  dpr 
+buk  che  bur  ene 
+ene  sta  efm 
+ene  mak  for  pol 
+vat  ekl  ene 
+ptr  eur  obo  zdr 
+bua  bur 
+vat  nab  sta  kul 
+ene 
+bua  obo  bur  mag  efm 
+ekl  ene  efm 
+ene  pol 
+ene  sta 
+zem  met  ene  sta  efm 
+nab  pol 
+bua  bup  bur 
+tlk  bua  pit  bur  efm 
+ene  efm 
+nab  sop  kul  mag 
+ptr  eur  zdr 
+fot  spo 
+bua  bur 
+ene 
+ekl  ene  zak  efm 
+ptr  kul  mag 
+vat  zem  ekl  ene  efm 
+nab  den  for  pol 
+buk  che  bur  ene 
+ptr  eur  zdr 
+ene  efm 
+bos  ptr  eur  zdr  for  pol 
+zem  met  ene 
+ene 
+fot  spo 
+fot  den  spo 
+ene  zak  efm  pol 
+bos  ptr  tur  eur  slz  zdr 
+ene  efm 
+ene  zak  efm 
+ene 
+buk  che  bur  ene 
+fot  spo 
+ene  mak  for  pol 
+fot  spo  mag 
+pit  ene  efm 
+ene 
+ptr  eur  zdr 
+ene 
+fot  spo 
+ptr  zdr 
+nab  zdr  zak  pol 
+ptr  eur  obo  zdr 
+ene 
+fot  spo 
+bua  obo  bur  efm 
+bua  bur 
+nab  mag 
+ekl  ene  for  pol 
+ptr  eur  obo 
+bua  bur 
+ptr  eur  zdr  for  pol 
+buk  che  bur  ene 
+nab  kul  for  pol 
+ene 
+ene  zak 
+obo  ekl  ene  mag 
+fot  spo 
+bos  ene  efm 
+ekl  ene  for  pol 
+nab  sop 
+fot  spo 
+ptr  eur  obo  zdr 
+ptr  ekl  ene 
+buk  che  bur  ene 
+ptr  obo  zdr  efm 
+buk  che  bur  ene 
+nab  kul 
+zem  ene  sta  efm  pol 
+eur  ene  pol 
+ene  mak  for  pol 
+nab  for  pol 
+bua  bur 
+pit  ene  efm 
+ptr  obo  zdr  efm 
+ene  efm 
+aut  ekl  ene 
+ptr  eur  obo  zdr 
+che  ptr  zem  efm 
+bos  ptr  eur  zdr  for  pol 
+zem  eur  ekl  ene 
+ene  efm 
+ekl  ene  zak  efm 
+ptr  obo  zdr 
+ptr  obo  zak 
+nab  prg  spl  kul  mag 
+fot  spo 
+bua  bur 
+ene  efm 
+ene  mak  for  pol 
+zem  ekl  ene  sta  pol 
+bua  buk  che  bur  zak  pol 
+ene  for  pol 
+ene 
+ekl  ene  efm 
+ekl  ene  zak  efm 
+ptr  obo  for  pol 
+ptr  eur  zdr  for  pol 
+ptr  zem  zdr 
+fot  nab  zdr  spo 
+bua  bur 
+bua  bur 
+nab  kul  mag 
+zem  ekl  ene 
+ptr  spl  mag  efm 
+ptr  obo  zdr 
+ekl  ene  sta 
+ene 
+ptr  zem  zdr 
+zem  ekl  ene  sta 
+ptr  eur  obo  zdr 
+bua  aut  bur  efm 
+bua  bup  bur 
+eur  ene 
+ene  sta  efm 
+buk  che  bur  ene 
+bos  ekl  ene  efm 
+ene  efm 
+ptr  zem  eur  obo 
+bua  bur 
+fot  spo 
+ene  efm 
+fot  spo 
+eur  ekl  ene 
+zem  ene  dpr  zak 
+bos  ptr  eur  zdr  for  pol 
+ptr  pit  obo 
+nab  sop 
+ekl  ene 
+buk  che  bur  ene 
+ekl  ene  efm 
+ene  efm 
+bua  bup  bur 
+ene  mak 
+ptr  zem  obo 
+ene  efm 
+ene  zak  efm 
+bos  ptr  zem  obo  zdr 
+bua  bup  bur 
+zem  eur  ene  pol 
+nab  for  zak  pol 
+ptr  eur  zdr  for  pol 
+ptr  zem  zdr 
+buk  che  bur  ene 
+ene 
+ptr  eur  zdr 
+den  ene  pol 
+ekl  ene 
+ene 
+sop  ekl  ene 
+ekl  ene 
+ptr  mak  for  pol 
+buk  che  bur  ene 
+bua  bup  bur 
+ptr  zem  obo 
+ekl  ene 
+bos  ene  efm 
+ene  efm 
+ptr  spl  mag 
+nab  sop  zak 
+ekl  ene 
+bua  bup  bur 
+ene  pol 
+buk  che  bur  ene 
+met  ene  mak 
+bua  bur 
+bua  bup  bur 
+ptr  eur  zdr 
+che  zem  ene  efm 
+ene  for  pol 
+ptr  eur  zdr 
+nab  kul 
+fot  spo 
+bua  bup  bur 
+zem  ekl  ene  efm 
+bua  bup  bur 
+ptr  mak 
+nab  sko 
+buk  che  bur  ene 
+pit  ekl  ene  zak 
+bua  bur 
+zem  met  ene  sta  efm 
+nab  mag  pol 
+sko  ene  efm 
+pit  ekl  ene  zak  efm 
+ene  efm 
+fot  spo 
+nab  mag  zak 
+fot  spo 
+nab  spl  pol 
+fot  spo 
+ene 
+ene  efm 
+bua  bur 
+bos  ptr  zem  eur  zdr 
+fot  den  spo 
+ekl  ene 
+ene  efm 
+bua  bur 
+bua  bur  sta  efm 
+ptr  zem  zdr 
+ene 
+fot  spo  zak  pol 
+fot  spo 
+fot  spo 
+fot  spo 
+nab  mag  zak 
+eur  ekl  ene  zak 
+bua  bur 
+zem  den  ekl  ene  pol 
+ene  efm 
+buk  bur  ene 
+nab  kul 
+ptr  tur  spl  slz  mag 
+buk  che  bur  ene 
+fot  spo 
+ptr  obo  zdr 
+nab  sop 
+ptr  zem  zdr 
+eur  ekl  ene  pol 
+ptr  eur  zdr  for  pol 
+zem  ene 
+ptr  zem 
+fot  spo 
+pit  ene  efm 
+nab  pol 
+aut  ekl  ene  efm 
+ekl  ene 
+buk  che  bur  ene 
+nab  kul 
+ptr  eur  obo 
+ptr  eur  zdr  for  pol 
+ptr  zem  zdr 
+bua  bur 
+buk  che  bur  ene 
+fot  spo 
+bua  bur 
+nab  eur  mag  pol 
+ptr  zem 
+nab  sta  zak 
+ene  efm 
+ene 
+nab  zak 
+che  ptr  zem  efm 
+ptr  zem  met 
+che  zem  ene  efm 
+nab  mag  zak 
+zem  ene  sta  for  pol 
+buk  che  bur  ene 
+ene  efm 
+fot  eur  spl  sta  spo  pol 
+nab  kul 
+bos  ptr  eur  zdr 
+ene  efm 
+ene  efm 
+nab  for  zak  pol 
+fot  spo  mag 
+bua  bup  bur 
+nab  odb  for  pol 
+ene  efm 
+nab  prg  spl  kul  mag 
+zem  ekl  ene  sta  pol 
+buk  che  bur  ene 
+zem  ekl  ene 
+bos  ptr  eur  zdr 
+buk  che  bur  ene 
+ptr  spl  mag 
+ptr  zdr 
+nab  prg  spl  kul  mag 
+ekl  ene  for  pol 
+bua  bup  bur 
+buk  che  bur  ene 
+tlk  ptr  pit  mag 
+ekl  ene  for  pol 
+bua  bur 
+ptr  zem  zdr 
+ptr  zem  obo  zdr 
+ene  dpr  efm 
+ekl  ene  dpr  efm 
+prg  med  ene 
+zem  met  ene  sta  efm 
+bua  bur 
+ekl  ene  for  pol 
+nab  mag  zak 
+ptr  zem  zdr 
+fot  spo 
+nab  sta  zak 
+odb  ene  efm 
+ekl  ene  efm 
+buk  che  bur  ene 
+bua  bur 
+bua  bur 
+nab  sop 
+ptr  tur  sta  slz  pol 
+nab  for  zak  pol 
+zem  met  ene  efm 
+buk  che  bur  ene 
+eur  ene  for  pol 
+fot  spo  mag 
+ptr  zem  zdr 
+bua  bur 
+buk  che  bur  ene 
+nab  kul 
+bos  ptr  zem  zdr  for  pol 
+ekl  ene 
+ptr  eur  zdr 
+fot  spo 
+fot  spo 
+buk  che  bur  ene 
+fot  spo 
+zem  ene  sta  efm  pol 
+ene  efm 
+buk  bur  ene  efm 
+fot  spo 
+ptr  spl  mag 
+nab  for  pol 
+ptr  eur  obo  zdr 
+fot  spo 
+odb  ene  dpr  efm 
+bua  obo  bur  efm 
+ptr  zdr 
+buk  che  bur  ene 
+nab  zak  pol 
+fot  den  spo 
+nab  den  kul 
+ptr  zem 
+nab  pol 
+obo  ene  pol 
+ene 
+ptr  sop  eur  for  pol 
+ptr  zem  zdr 
+ptr  eur  obo  zdr 
+ptr  tur  slz  zak 
+fot  spo  mag 
+fot  spo 
+ptr  eur  zdr 
+prg  zem  ene  efm 
+che  ene  efm 
+eur  obo  ene  efm  pol 
+zem  ene  efm  pol 
+eur  ekl  ene  zak 
+ptr  obo  for  pol 
+buk  che  bur  ene 
+zem  ene  efm 
+odb  ene  dpr  efm 
+ptr  eur  obo  zdr 
+ptr  eur  zdr  for  pol 
+den  ene  efm 
+ptr  spl  mag 
+ptr  obo  zdr 
+ene  for  zak  pol 
+zem  ekl  ene 
+fot  spo 
+fot  spo 
+ptr  zem  zdr 
+ekl  ene  sta 
+nab  for  pol 
+ptr  pol 
+fot  spo 
+zem  ekl  ene 
+nab  kul 
+zem  spl  ekl  ene  sta  efm 
+buk  che  bur  ene 
+zem  ene  efm  pol 
+nab  med  den 
+buk  che  fin  bur  ene 
+bua  bur  sta  efm 
+ene  zak 
+bua  obo  bur  efm 
+bua  bup  bur 
+fot  spo 
+eur  ene  pol 
+ene  efm 
+ptr  zak 
+zem  ene 
+ptr  den  efm 
+ekl  ene 
+fot  spo 
+ekl  ene  for  pol 
+ene  efm 
+ptr  eur  zdr 
+buk  che  bur  ene 
+prg  med  ene 
+ene  sta  efm 
+bua  bur 
+ene  for  zak  pol 
+ene 
+ptr  zem  obo 
+bua  bup  bur 
+ptr  zak  efm 
+ekl  ene  for  pol 
+nab  zdr 
+nab  sop 
+zem  met  ene  efm 
+fot  spo 
+fot  spo 
+ptr  eur  obo  zdr 
+nab  sop 
+nab  kul  zak 
+ekl  ene  sta 
+prg  zem  ene  efm 
+prg  ptr  obo  zdr 
+che  ptr  zem  efm 
+zem  ekl  ene  sta  efm 
+bua  bur 
+ene  efm 
+ene  efm 
+buk  che  bur  ene 
+ptr  zdr 
+ptr  eur  zdr  for  pol 
+nab  zem  obo  ekl  for  pol 
+ene  zak  efm 
+ene  pol 
+buk  che  bur  ene 
+ptr  zdr 
+zem  ekl  ene 
+bua  bur 
+nab  pol 
+ptr  eur  zdr 
+ene 
+ptr  tur  eur  slz  zdr 
+sko  eur  ene  for  pol 
+zem  ekl  ene  sta  efm 
+ekl  ene 
+nab  sop 
+nab  kul 
+bua  bur 
+fot  spo  mag  zak 
+ptr  eur  zdr 
+ptr  obo  zdr  efm 
+fot  spo 
+ekl  ene  zak 
+ptr  den 
+nab  dpr  pol 
+fot  spo 
+odb  ene  efm 
+bos  eur  ekl  ene 
+fot  spo 
+ene 
+bua  bur 
+nab  pol 
+bua  bur 
+bua  bur 
+bua  bur 
+fot  spo 
+bua  bur 
+ene  for  pol 
+ptr  eur  zdr  for  pol 
+fot  spo  kul  mag 
+nab  sta  kul  pol 
+ene  efm 
+fin  ene  sta 
+fot  spo 
+ene  efm 
+zem  met  ene  efm 
+ene  efm 
+ptr  spl  kul  mag 
+ene  efm 
+ene  efm 
+ene 
+bua  bur 
+ekl  ene 
+zem  ekl  ene 
+ene  for  pol 
+ene  sta  efm 
+che  ptr  zem  efm 
+bos  ptr  zem  eur  zdr 
+buk  che  bur  ene 
+che  ptr  zem  efm 
