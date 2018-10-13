@@ -158,6 +158,15 @@ class rnn_decoder(nn.Module):
             self.activation = nn.Tanh()
             if config.global_emb:
                 self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
+        elif score_fn == 'hubness':
+            self.emb_to_mid1 = nn.Linear(config.emb_size, config.decoder_hidden_size)
+            self.mid1_to_mid2 = nn.Linear(config.decoder_hidden_size, config.decoder_hidden_size)
+            self.activation = nn.ReLU()
+            if config.global_emb:
+                self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
+        elif score_fn == 'disc':
+            self.toEmbLinear = nn.Linear(config.decoder_hidden_size, config.emb_size)
+            # TODO
         elif not self.score_fn.startswith('dot'):
             self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
 
@@ -281,7 +290,7 @@ class rnn_decoder(nn.Module):
         elif self.score_fn == 'hybrid':
             # HINT: 由于这里只是为了测试hybrid，因此return的score不兼容其他score_fn
             emb_space_vector = self.toEmbLinear(hiddens)  # 实际上还没有做softmax
-            emb_score_vector = self.activation(emb_space_vector)
+            # emb_score_vector = self.activation(emb_space_vector)
 
             emb_space_vector_normed = models.utils.l2norm(emb_space_vector)
             embedding_cp_normed = models.utils.l2norm(self.embedding.weight.detach())
@@ -296,6 +305,12 @@ class rnn_decoder(nn.Module):
                 print(scores[:5])
                 time.sleep(10)
                 '''
+        elif self.score_fn == 'hubness':
+            mid1 = self.emb_to_mid1(self.embedding.weight.detach())
+            mid1 = self.activation(mid1)  # relu
+            mid2 = self.mid1_to_mid2(mid1)
+            mid2 = self.activation(mid2)
+            scores = torch.matmul(hiddens, mid2.t())
         elif self.score_fn.startswith('dot'):
             if self.score_fn.endswith('not'):
                 scores = torch.matmul(hiddens, Variable(self.embedding.weight.t().data))
@@ -398,6 +413,7 @@ class rnn_decoder(nn.Module):
         # output [batch, hidden * num_directions]
         # h, c [num_layer * num_dir, batch, hidden_sz]
         output, state = self.rnn(emb, state)
+        # attn_weights: [batch, time]
         hidden, attn_weights = self.attention(output, contexts)
         output = self.compute_score(hidden)
         if self.config.mask:

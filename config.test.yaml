@@ -12,10 +12,11 @@ mask: True
 schedule: True
 bidirec: True
 start_decay_at: 5
-score: 'softmax'
+score: 'hubness'
 N: 1
 margin: 0.3
-emb_file: './data/data/weight_matrix_test.cz'
+view_score: False
+emb_file: './data/data/weight_matrix_test'
 emb_size: 300
 encoder_hidden_size: 128
 decoder_hidden_size: 256
@@ -31,4 +32,4 @@ softmax_linear_lr_mul: 0.0015
 shared_vocab: False
 beam_size: 1
 k_max: 0
-cheat: 0
+cheat: 0.1

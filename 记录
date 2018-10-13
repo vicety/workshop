@@ -1,0 +1,70 @@
+allennlp不支持windows 看来只有到最后阶段再用EMLo了
+
+https://old.datahub.io/dataset/rcv1-v2-lyrl2004  rcv1-v2的标签说明
+
+
+textcnn是怎么解决输入长度不定的问题的？
+
+召回率
+判断出来的正确的/所有确实存在的
+召回率高即（能够找到尽量多的存在的正确的）
+精确率
+判断出来的正确的/所有判断的（包括判断对的和错的）
+精确率高即（一拿一个准）
+
+目前进行的实验中通常是precision比recall高
+
+
+https://arxiv.org/pdf/1808.02861.pdf  控制neuron
+
+控制attention关注那些内容（而非让其自动学习关注那些内容）
+增加domain信息表示的量（seed words）
+
+
+di = {'<blank>': 'prázdné',
+          '<unk>': 'neznámý',
+          '<s>': 'začíná',
+          '</s>': 'konec',
+          'mak': 'makroekonomika',
+          'slz': 'služby',
+          'tur': 'cestovní ruch',
+          'prg': 'Pragensie',
+          'fin': 'finanční služby',
+          'hok': 'Hokej - Zprávy',
+          'eur': 'evropská unie - zpravodajství',
+          'dpr': 'Doprava',
+          'met': 'počasí',
+          'pol': 'Politika',
+          'zak': 'kriminalita a zákon',
+          'for': 'parlamenty a vlády',
+          'sta': 'Stavebnictví a reality',
+          'efm': 'Firmy',
+          'spo': 'sports',
+          'sko': 'Školství',
+          'med': 'média a reklama',
+          'mag': 'časopis výběr',
+          'spl': 'životní styl',
+          'odb': 'práce a odbory',
+          'pit': 'Telekomunikace a informační technologie',
+          'obo': 'Obchod',
+          'aut': 'automobilový průmysl',
+          'ekl': 'prostředí',
+          'kul': 'Kultura',
+          'zdr': 'zdravotní služby',
+          'vat': 'věda a technika',
+          'sop': 'Sociální problémy',
+          'den': 'zprávy a plány',
+          'bur': 'burzy',
+          'bup': 'Currency exchanges',
+          'tlk': 'Telekomunikace',
+          'che': 'Chemické a farmaceutické průmysl',
+          'bos': 'Čeština ze zahraničí',
+          'buk': 'Komoditní burzy',
+          'zem': 'Zemědělství',
+          'ptr': 'Potravinářský',
+          'nab': 'Náboženství',
+          'ene': 'Energie',
+          'fot': 'fotbal',
+          'bua': 'burzy akciové',
+          'str': 'strojírenství',
+          }

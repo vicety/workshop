@@ -92,7 +92,7 @@ def memory_efficiency_cross_entropy_loss(hidden_outputs, decoder, targets, crite
 
 
 # outputs [time, batch, dec_hidden], targets 句子去掉GO [maxlen, batch]
-def cross_entropy_loss(hidden_outputs, decoder, targets, criterion, config, sim_score=0):
+def cross_entropy_loss(hidden_outputs, decoder, targets, criterion, config, model, sim_score=0):
     '''
     :param hidden_outputs: [time, batch, dec_hidden]
     :param decoder: self.decoder
@@ -105,17 +105,23 @@ def cross_entropy_loss(hidden_outputs, decoder, targets, criterion, config, sim_
     '''
     outputs = hidden_outputs.view(-1, hidden_outputs.size(2))  # outputs [time * batch, dec_hidden]
     scores = decoder.compute_score(outputs)
-    if config.score != 'hybrid':
+    if config.score == 'hinge_margin_loss':
         # TODO: 去看一下RNN怎么做backward的
-        loss = criterion(scores, targets.view(-1)) + sim_score  # ([time*batch, vocab], [maxlen*batch])
+        loss = criterion(scores, targets.view(-1), model) + sim_score  # ([time*batch, vocab], [maxlen*batch])
         # print(loss)
         pred = scores.max(1)[1]  # max(dim), 返回（最大值，对应index）  # TODO: 这里也可以尝试按概率来返回pred（或者更复杂一些）？
-    else:
+    elif config.score == 'hybrid':
         softmax_loss = criterion['softmax'](scores['softmax'], targets.view(-1)) + sim_score  # ([time*batch, vocab], [maxlen * batch])
         margin_loss = criterion['margin'](scores['margin'], targets.view(-1)) + sim_score
         print('softmax_loss: {} || margin_loss: {}'.format(softmax_loss, margin_loss))
         loss = softmax_loss * config['softmax_linear_lr_mul'] + margin_loss
         pred = scores['margin'].max(1)[1]
+    elif config.score == 'hubness':
+        margin_loss = criterion(scores, targets.view(-1)) + sim_score
+        l2_reg = config['l2_reg'] * ((model.decoder.emb_to_mid1.weight.data ** 2).sum()
+                                     + (model.decoder.mid1_to_mid2.weight.data ** 2).sum())
+        loss = margin_loss + l2_reg
+        pred = scores.max(1)[1]
     num_correct = pred.data.eq(targets.view(-1).data)
         # padding的正确率不计
     num_correct = num_correct.masked_select(targets.view(-1).ne(dict.PAD).data)

@@ -18,6 +18,20 @@ class seq2seq(nn.Module):
             # hint: 会自动冻结
             src_embedding = nn.Embedding.from_pretrained(pretrain['src_emb'])
             tgt_embedding = nn.Embedding.from_pretrained(pretrain['tgt_emb'])
+
+            # def normal2(A):
+            #     return A / np.sqrt(np.sum(A ** 2))
+
+            # for i in range(len(pretrain['tgt_emb'])):
+            #     pretrain['tgt_emb'][i] = normal2(pretrain['tgt_emb'][i])
+            # mat = np.zeros(45*45).reshape(45, 45)
+            # for i in range(45):
+            #     for j in range(45):
+            #         _ = normal2(pretrain['tgt_emb'][i].numpy().copy())
+            #         __ = normal2(pretrain['tgt_emb'][j].numpy().copy())
+            #         mat[i][j] = _.dot(__)
+            # print(mat)
+            # print()
         else:
             src_embedding = None
             tgt_embedding = None
@@ -38,6 +52,8 @@ class seq2seq(nn.Module):
             self.criterion = {}
             self.criterion['softmax'] = models.criterion(tgt_vocab_size, use_cuda, config)
             self.criterion['margin'] = models.margin_criterion(tgt_vocab_size, use_cuda, config)
+        elif config.score == 'hubness':
+            self.criterion = models.margin_criterion(tgt_vocab_size, use_cuda, config)
         elif config.score == 'softmax':
             self.criterion = models.criterion(tgt_vocab_size, use_cuda, config)
         else:
@@ -51,15 +67,15 @@ class seq2seq(nn.Module):
             return models.memory_efficiency_cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion,
                                                                self.config)
         else:
-            return models.cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion, self.config)
+            return models.cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion, self.config, self)
 
 
     def forward(self, src, src_len, tgt, tgt_len):
         '''
         :param src: [maxlen, batch]
         :param src_len: [1, batch]
-        :param tgt:
-        :param tgt_len:
+        :param tgt: [maxlen, batch]
+        :param tgt_len: [1, batch]
         :return: outputs(shape[time, batch, dec_hidden]), target(shape[maxlen, batch])
                 Arg outputs： decoder的输出再过一个attention得到
                 Arg target： 就是输入的target减去开头的GO得到
@@ -207,8 +223,11 @@ class seq2seq(nn.Module):
             time.sleep(20)
             '''
             
-            # import time
-            # print(output[:8])
+
+            if self.config.view_score:
+                import time
+                print(output[:10])
+                time.sleep(20)
 
             if self.config.cheat:
                 output[:, -5:] += self.config.cheat
@@ -261,7 +280,7 @@ class seq2seq(nn.Module):
             for i, (times, k) in enumerate(ks[:n_best]):
                 hyp, att = b.getHyp(times, k)
                 hyps.append(hyp)
-                attn.append(att.max(1)[1])
+                attn.append(att.max(1)[1])  # 最关注的位置
             allHyps.append(hyps[0])
             allScores.append(scores[0])
             allAttn.append(attn[0])

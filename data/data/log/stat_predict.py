@@ -9,7 +9,7 @@ word_dict_file = '../test_label_dict.json'
 with open(word_dict_file, 'r') as f:
     word_dict = json.load(f)
 
-special_num = 5 # ZSL类别的个数
+special_num = 5  # ZSL类别的个数
 vocab_size = len(word_dict)
 
 can = []
@@ -85,7 +85,7 @@ for ref_file in os.listdir(ref_dir):
 ref_avg = ref_all / len(os.listdir(ref_dir))
 
 can_special.reverse()
-ref_special.reverse() # 顺序是反的
+ref_special.reverse()  # 顺序是反的
 
 for i, id_set in enumerate(can_normal):
     correct = 0
@@ -104,7 +104,7 @@ for i, id_set in enumerate(can_special):
         if idx in ref_special[i]:
             correct += 1
     special_correct_all += correct
-    print('can/ref(special): {}/{}'.format(correct, len(can_special[i])))
+    print('can/ref(special): {}/{}/{}'.format(correct, len(can_special[i]), len(ref_special[i])))
 
 if can_special_num:
     print("special acc: {}".format(special_correct_all / can_special_num))

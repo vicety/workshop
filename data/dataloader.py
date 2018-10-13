@@ -5,16 +5,17 @@ import data.utils
 
 class dataset(torch_data.Dataset):
 
-    def __init__(self, src, tgt, raw_src, raw_tgt):
+    def __init__(self, src, tgt, raw_src, raw_tgt, from_known):
 
         self.src = src
         self.tgt = tgt
         self.raw_src = raw_src
         self.raw_tgt = raw_tgt
+        self.from_known = from_known
 
     def __getitem__(self, index):
         return self.src[index], self.tgt[index], \
-               self.raw_src[index], self.raw_tgt[index]
+               self.raw_src[index], self.raw_tgt[index], self.from_known[index]
 
     def __len__(self):
         return len(self.src)
@@ -31,7 +32,7 @@ def save_dataset(dataset, path):
 # src, tgt -> count length of each sentence, then do padding(note that padding is id=0)
 # raw_src, raw_tgt remain unprocessed
 def padding(data):
-    src, tgt, raw_src, raw_tgt = zip(*data)   # list [batch, length_each(not same)]
+    src, tgt, raw_src, raw_tgt, from_known = zip(*data)   # list [batch, length_each(not same)]
 
     src_len = [len(s) for s in src]  # list [batch] length of each sentence
     src_pad = torch.zeros(len(src), max(src_len)).long()  # create zero matrix enough to put src in,
@@ -50,7 +51,7 @@ def padding(data):
     # return raw_src [batch, length_each]
         #    src_pad [maxlen, batch]
     return raw_src, src_pad.t(), torch.LongTensor(src_len), \
-           raw_tgt, tgt_pad.t(), torch.LongTensor(tgt_len)
+           raw_tgt, tgt_pad.t(), torch.LongTensor(tgt_len), torch.Tensor(from_known)
 
 
 def get_loader(dataset, batch_size, shuffle, num_workers):

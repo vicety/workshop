@@ -26,6 +26,7 @@ class global_attention(nn.Module):
         :return: output: result calculated by attention, shape [batch, hid*num_dir]
                 weights: the attention weight this timestep to all timesteps in encoder, shape[batch, time]
         """
+
         gamma_h = self.linear_in(x).unsqueeze(2)    # batch * size * 1
         if self.activation == 'tanh':  # TODO: activation is still None now
             gamma_h = self.tanh(gamma_h)
