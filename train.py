@@ -236,11 +236,12 @@ def train(epoch):
             tgt = tgt.cuda()
             src_len = src_len.cuda()
             tgt_len = tgt_len.cuda()
+            from_known = from_known.cuda()
 
         model.zero_grad()
         # outputs [batch, dec_hidden], targets 句子去掉GO [maxlen, batch]
         # print(model.decoder.rnn.layers._modules['0']._parameters['weight_ih'].data)
-        outputs, targets = model(src, src_len, tgt, tgt_len)  # execute forward computation here
+        outputs, targets, from_known = model(src, src_len, tgt, tgt_len, from_known)  # execute forward computation here
         '''
         import time
         print(targets[:3])

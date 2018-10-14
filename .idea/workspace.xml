@@ -51,7 +51,7 @@
     <SUITE FILE_PATH="coverage/SGM$loss.coverage" NAME="loss Coverage Results" MODIFIED="1539480962913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/SGM$extract_label_info.coverage" NAME="extract_label_info Coverage Results" MODIFIED="1539423561900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newdata" />
     <SUITE FILE_PATH="coverage/SGM$stat_predict.coverage" NAME="stat_predict Coverage Results" MODIFIED="1539411728301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data/log" />
-    <SUITE FILE_PATH="coverage/SGM$train.coverage" NAME="train Coverage Results" MODIFIED="1539489921046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SGM$train.coverage" NAME="train Coverage Results" MODIFIED="1539494832785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1351481119">
@@ -103,22 +103,12 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+            <state relative-caret-position="-93">
+              <caret line="227" column="27" lean-forward="true" selection-start-line="227" selection-start-column="27" selection-end-line="227" selection-end-column="27" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1539481087082" expanded="true" signature="909:1013" ph="..." />
+                <marker date="1539494343582" expanded="true" signature="909:1013" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functional.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/learn/Python 3.6.1/Lib/site-packages/torch/nn/functional.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="1406" column="0" lean-forward="false" selection-start-line="1406" selection-start-column="0" selection-end-line="1406" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,68 +116,28 @@
       <file leaf-file-name="save_data.test.dict.trans.cz" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/data/save_data.test.dict.trans.cz">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="301">
+              <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/learn/Python 3.6.1/Lib/site-packages/torch/nn/modules/module.py">
+      <file leaf-file-name="preprocess_for_disc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process_dataset/preprocess_for_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="520" column="32" lean-forward="false" selection-start-line="520" selection-start-column="32" selection-end-line="520" selection-end-column="32" />
+            <state relative-caret-position="-3823">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/rnn.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="330" column="70" lean-forward="false" selection-start-line="330" selection-start-column="70" selection-end-line="330" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/loss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="78" column="76" lean-forward="false" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seq2seq.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/seq2seq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.test.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.test.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="250">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,11 +146,63 @@
       <file leaf-file-name="dataloader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/dataloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="327">
+              <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-62">
+              <caret line="386" column="41" lean-forward="true" selection-start-line="386" selection-start-column="41" selection-end-line="386" selection-end-column="41" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loss.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/loss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="87" column="95" lean-forward="false" selection-start-line="87" selection-start-column="95" selection-end-line="87" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seq2seq.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/seq2seq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/rnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-500">
+              <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,7 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new_l</find>
       <find>embd</find>
       <find>attention</find>
       <find>weight</find>
@@ -246,6 +247,7 @@
       <find>self</find>
       <find>loader</find>
       <find>cri</find>
+      <find>get_loader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,15 +279,15 @@
         <option value="$PROJECT_DIR$/newdata/extract_label_info.py" />
         <option value="$PROJECT_DIR$/newdata/label_info" />
         <option value="$PROJECT_DIR$/data/dict.py" />
-        <option value="$PROJECT_DIR$/preprocess.py" />
-        <option value="$PROJECT_DIR$/data/dataloader.py" />
         <option value="$PROJECT_DIR$/predict.py" />
         <option value="$PROJECT_DIR$/config.test.yaml" />
-        <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/models/rnn.py" />
+        <option value="$PROJECT_DIR$/preprocess.py" />
+        <option value="$PROJECT_DIR$/data/dataloader.py" />
+        <option value="$PROJECT_DIR$/models/loss.py" />
         <option value="$PROJECT_DIR$/config.yaml" />
         <option value="$PROJECT_DIR$/models/seq2seq.py" />
-        <option value="$PROJECT_DIR$/models/loss.py" />
+        <option value="$PROJECT_DIR$/train.py" />
       </list>
     </option>
   </component>
@@ -344,6 +346,11 @@
               <item name="SGM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SGM" type="462c0819:PsiDirectoryNode" />
               <item name="newdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SGM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SGM" type="462c0819:PsiDirectoryNode" />
+              <item name="process_dataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -513,6 +520,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -526,7 +534,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4378819" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -571,7 +579,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/models/seq2seq.py</url>
-          <line>142</line>
+          <line>143</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -589,26 +597,22 @@
           <line>246</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/seq2seq.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/loss.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/data/log/reference_aggregate.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tar_dict2json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data/log/2018-10-11-23_00_34/log.txt" />
     <entry file="file://$PROJECT_DIR$/data/data/log/2018-10-11-23_00_34/record.csv" />
     <entry file="file://$PROJECT_DIR$/data/data/log/datav3_withtest_failed/log.txt">
@@ -790,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alignment_analysis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="619" column="18" lean-forward="false" selection-start-line="619" selection-start-column="18" selection-end-line="619" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/attention.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -828,22 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -862,31 +843,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="232" column="43" lean-forward="false" selection-start-line="232" selection-start-column="43" selection-end-line="232" selection-end-column="43" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="153" column="13" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,41 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="330" column="70" lean-forward="false" selection-start-line="330" selection-start-column="70" selection-end-line="330" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/data/save_data.test.dict.trans.cz">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1539481087082" expanded="true" signature="909:1013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/learn/Python 3.6.1/Lib/site-packages/torch/nn/functional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -949,18 +875,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1273">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alignment_analysis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="619" column="18" lean-forward="false" selection-start-line="619" selection-start-column="18" selection-end-line="619" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_dataset/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_dataset/preprocess_for_disc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3823">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="386" column="41" lean-forward="true" selection-start-line="386" selection-start-column="41" selection-end-line="386" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="227" column="27" lean-forward="true" selection-start-line="227" selection-start-column="27" selection-end-line="227" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1539494343582" expanded="true" signature="909:1013" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/seq2seq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="367">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data/save_data.test.dict.trans.cz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="78" column="76" lean-forward="false" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
+        <state relative-caret-position="342">
+          <caret line="87" column="95" lean-forward="false" selection-start-line="87" selection-start-column="95" selection-end-line="87" selection-end-column="95" />
           <folding />
         </state>
       </provider>

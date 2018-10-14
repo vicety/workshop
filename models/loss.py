@@ -76,9 +76,9 @@ def margin_criterion(tgt_vocab_size, use_cuda, config):
             loss = config['margin'] + config['err_mul'] * error_score - correct_score
             loss_index = loss.gt(torch.zeros(scores.shape[0]).cuda()).cuda()
             if from_known is not None:
-                sentence_len = int(error_score.shape[0] / config.batch_size)
-                from_known = from_known.t().expand(sentence_len, config.batch_size).cuda().view(-1)
-                loss *= from_known
+                # sentence_len = int(error_score.shape[0] / config.batch_size)
+                # from_known = from_known.cuda().t().expand(sentence_len, config.batch_size).view(-1)
+                loss *= from_known.float()
             loss = torch.masked_select(loss, loss_index).sum(dim=0).cuda()
         else:
             mask = torch.ones(scores.shape)
@@ -165,9 +165,10 @@ def cross_entropy_loss(hidden_outputs, decoder, targets, criterion, config, mode
         pred = scores.max(1)[1]
     elif config.score == 'disc':
         # hint: 也就是说每个时步的decoder output都要拿来算一次是否来自train
-        sentence_len = int(scores['margin'].shape[0] / config.batch_size)
+        sentence_len = hidden_outputs.shape[0]
+        from_known = from_known.expand(sentence_len, -1).cuda().long().view(-1)  # epoch结尾
         softmax_loss = (criterion['softmax'](scores['softmax'],
-                                        from_known.t().expand(sentence_len, config.batch_size).cuda().long().view(-1))\
+                                        from_known)\
                                         + sim_score) * config['softmax_linear_lr_mul']   # ([time*batch, vocab], [maxlen * batch])
         margin_loss = criterion['margin'](scores['margin'], targets.view(-1), from_known) + sim_score
         print('softmax_loss: {} || margin_loss: {}'.format(softmax_loss, margin_loss))

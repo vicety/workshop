@@ -444,15 +444,16 @@ def make_embedding(extra_word):
     torch.save(weight_matrix_test, './data/data/weight_matrix_test')
 
 
-def add_extra_word_to_testcz(new_label):
+def add_extra_word_to_testcz(new_label, disc=False):
 
     # 构造save_data.test.dict
     with open("./data/data/save_data.tgt.dict", 'r', encoding='utf-8') as f:
         lines = f.readlines()
         line_num = len(lines)
-        for label in new_label:
-            lines += label + '  ' + str(line_num) + '\n'
-            line_num += 1
+        if not disc:
+            for label in new_label:
+                lines += label + '  ' + str(line_num) + '\n'
+                line_num += 1
 
     with open("./data/data/save_data.test.dict", 'w', encoding='utf-8') as f:
         f.writelines(lines)
@@ -505,7 +506,7 @@ if __name__ == "__main__":
 
     extra_word_num = len(new_label)
 
-    add_extra_word_to_testcz(new_label)
+    add_extra_word_to_testcz(new_label, disc=True)
 
     # 构造json文件(也就是
     tar_dict2json()

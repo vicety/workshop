@@ -74,7 +74,7 @@ class seq2seq(nn.Module):
             return models.cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion, self.config, self, from_known)
 
 
-    def forward(self, src, src_len, tgt, tgt_len):
+    def forward(self, src, src_len, tgt, tgt_len, from_known):
         '''
         :param src: [maxlen, batch]
         :param src_len: [1, batch]
@@ -95,6 +95,7 @@ class seq2seq(nn.Module):
         lengths, indices = torch.sort(src_len.squeeze(0), dim=0, descending=True)  # src_len -> [batch], then sort
         src = torch.index_select(src, dim=1, index=indices)  # synchronize src with src_len
         tgt = torch.index_select(tgt, dim=1, index=indices)
+        from_known = torch.index_select(from_known, dim=1, index=indices)
 
         contexts, state = self.encoder(src, lengths.data.tolist())  # contexts [maxlen, batch, hidden*num_dirc]
         # state -> (h, c) -> [num_layer, batch, dir * hidden]
@@ -102,7 +103,7 @@ class seq2seq(nn.Module):
         # decoder的input应加上GO（这里也许加了？）并去除最后的EOS（因为EOS是希望rnn最后一个时步预测出来的，而不是我们输入给rnn的）
         outputs, final_state = self.decoder(tgt[:-1], state, contexts.transpose(0, 1))
         # outputs[time, batch, dec_hidden], final_state [num_layer, batch]
-        return outputs, tgt[1:]
+        return outputs, tgt[1:], from_known
 
     def sample(self, src, src_len):
         '''
