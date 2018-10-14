@@ -21,44 +21,44 @@ def criterion(tgt_vocab_size, use_cuda, config):
 #         target = target.unsqueeze(1)
 #
 
-def margin_criterion_with_mask(tgt_vocab_size, use_cuda, config):
-    def hinge_margin_loss(scores, target, from_known):
-        '''
-        :param scores: [time*batch, vocab],
-        :param target: [maxlen*batch]
-        :return: loss:float
-        '''
-        if use_cuda:
-            mask = torch.ones(scores.shape).cuda()
-            mask[:, dict.PAD] = 0
-            for i in range(scores.shape[0]):
-                mask[i][target[i]] = 0
-            error_selection_index = torch.multinomial(mask, config['N'])  # [time*batch, N]
-            error_score = torch.gather(scores, 1, error_selection_index).cuda()
-            error_score = error_score.sum(dim=1)
-            correct_score = torch.gather(scores, 1, target.unsqueeze(1)).squeeze().cuda()
-            loss = config['margin'] + config['err_mul'] * error_score - correct_score
-            loss_index = loss.gt(torch.zeros(scores.shape[0]).cuda()).cuda()
-            # TODO: mask here
-            loss = torch.masked_select(loss, loss_index).sum(dim=0).cuda()
-        else:
-            print('buy a gpu...')
-
-        if config["view_score"]:
-            import time
-            sample = 1
-            # 缺陷在于不能看到target
-            print(scores.shape)
-            print("scores[:10]: {}\n".format(scores[:10]))
-            print("target: {}".format(target.view(-1, config['batch_size'])))
-            print("err[:10]: {}\n cor[:10]: {}\n".format(error_score[:10], correct_score[:10]))
-            time.sleep(10)
-        return loss
-
-    return hinge_margin_loss
+# def margin_criterion_with_mask(tgt_vocab_size, use_cuda, config):
+#     def hinge_margin_loss(scores, target, from_known):
+#         '''
+#         :param scores: [time*batch, vocab],
+#         :param target: [maxlen*batch]
+#         :return: loss:float
+#         '''
+#         if use_cuda:
+#             mask = torch.ones(scores.shape).cuda()
+#             mask[:, dict.PAD] = 0
+#             for i in range(scores.shape[0]):
+#                 mask[i][target[i]] = 0
+#             error_selection_index = torch.multinomial(mask, config['N'])  # [time*batch, N]
+#             error_score = torch.gather(scores, 1, error_selection_index).cuda()
+#             error_score = error_score.sum(dim=1)
+#             correct_score = torch.gather(scores, 1, target.unsqueeze(1)).squeeze().cuda()
+#             loss = config['margin'] + config['err_mul'] * error_score - correct_score
+#             loss_index = loss.gt(torch.zeros(scores.shape[0]).cuda()).cuda()
+#             # TODO: mask here
+#             loss = torch.masked_select(loss, loss_index).sum(dim=0).cuda()
+#         else:
+#             print('buy a gpu...')
+#
+#         if config["view_score"]:
+#             import time
+#             sample = 1
+#             # 缺陷在于不能看到target
+#             print(scores.shape)
+#             print("scores[:10]: {}\n".format(scores[:10]))
+#             print("target: {}".format(target.view(-1, config['batch_size'])))
+#             print("err[:10]: {}\n cor[:10]: {}\n".format(error_score[:10], correct_score[:10]))
+#             time.sleep(10)
+#         return loss
+#
+#     return hinge_margin_loss
 
 def margin_criterion(tgt_vocab_size, use_cuda, config):
-    def hinge_margin_loss(scores, target):
+    def hinge_margin_loss(scores, target, from_known=None):
         '''
         :param scores: [time*batch, vocab],
         :param target: [maxlen*batch]
@@ -75,6 +75,10 @@ def margin_criterion(tgt_vocab_size, use_cuda, config):
             correct_score = torch.gather(scores, 1, target.unsqueeze(1)).squeeze().cuda()
             loss = config['margin'] + config['err_mul'] * error_score - correct_score
             loss_index = loss.gt(torch.zeros(scores.shape[0]).cuda()).cuda()
+            if from_known is not None:
+                sentence_len = int(error_score.shape[0] / config.batch_size)
+                from_known = from_known.t().expand(sentence_len, config.batch_size).cuda().view(-1)
+                loss *= from_known
             loss = torch.masked_select(loss, loss_index).sum(dim=0).cuda()
         else:
             mask = torch.ones(scores.shape)
@@ -163,7 +167,7 @@ def cross_entropy_loss(hidden_outputs, decoder, targets, criterion, config, mode
         # hint: 也就是说每个时步的decoder output都要拿来算一次是否来自train
         sentence_len = int(scores['margin'].shape[0] / config.batch_size)
         softmax_loss = (criterion['softmax'](scores['softmax'],
-                                        from_known.expand(config.batch_size, sentence_len).cuda().long().view(-1))\
+                                        from_known.t().expand(sentence_len, config.batch_size).cuda().long().view(-1))\
                                         + sim_score) * config['softmax_linear_lr_mul']   # ([time*batch, vocab], [maxlen * batch])
         margin_loss = criterion['margin'](scores['margin'], targets.view(-1), from_known) + sim_score
         print('softmax_loss: {} || margin_loss: {}'.format(softmax_loss, margin_loss))

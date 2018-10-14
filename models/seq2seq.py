@@ -59,7 +59,7 @@ class seq2seq(nn.Module):
         elif config.score == 'disc':
             self.criterion = {}
             self.criterion['softmax'] = models.criterion(2, use_cuda, config)
-            self.criterion['margin'] = models.margin_criterion_with_mask(tgt_vocab_size, use_cuda, config)
+            self.criterion['margin'] = models.margin_criterion(tgt_vocab_size, use_cuda, config)
         else:
             print('no such score function')
             os.abort()
