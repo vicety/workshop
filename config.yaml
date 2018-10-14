@@ -12,8 +12,8 @@ mask: True
 schedule: True
 bidirec: True
 start_decay_at: 5
-score: 'hubness'
-freeze: True
+score: 'disc'
+freeze: False
 N: 5
 err_mul: 0.2
 margin: 0.3
@@ -32,8 +32,8 @@ max_generator_batches: 32
 metric: ['hamming_loss', 'micro_f1']
 shared_vocab: False
 beam_size: 1
-GRL_fraction: 0
-softmax_linear_lr_mul: 0.0025
+GRL_fraction: 1
+softmax_linear_lr_mul: 0.002
 k_max: 0
 cheat: 0
 discriminate: True

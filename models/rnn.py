@@ -166,7 +166,13 @@ class rnn_decoder(nn.Module):
                 self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
         elif score_fn == 'disc':
             self.toEmbLinear = nn.Linear(config.decoder_hidden_size, config.emb_size)
+            self.bin_classify = nn.Linear(config.decoder_hidden_size, 2)
+            self.grl = models.GradReverse(config['GRL_fraction'])
+            self.activation = nn.Tanh()
+            if config.global_emb:
+                self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
             # TODO
+        # score_fn == softmax的情形
         elif not self.score_fn.startswith('dot'):
             self.linear = nn.Linear(config.decoder_hidden_size, vocab_size)
 
@@ -310,7 +316,22 @@ class rnn_decoder(nn.Module):
             mid1 = self.activation(mid1)  # relu
             mid2 = self.mid1_to_mid2(mid1)
             mid2 = self.activation(mid2)
-            scores = torch.matmul(hiddens, mid2.t())
+            mid2_normed = models.utils.l2norm(mid2)
+            hiddens_normed = models.utils.l2norm(hiddens)
+            scores = torch.matmul(hiddens_normed, mid2_normed.t())
+        elif self.score_fn == 'disc':
+            # hint: filter留到score去做
+            emb_space_vector = self.toEmbLinear(hiddens)  # 实际上还没有做softmax
+            # emb_score_vector = self.activation(emb_space_vector)
+
+            emb_space_vector_normed = models.utils.l2norm(emb_space_vector)
+            embedding_cp_normed = models.utils.l2norm(self.embedding.weight.detach())
+            if self.training:
+                scores = {}
+                scores['softmax'] = self.bin_classify(self.grl(hiddens))
+                scores['margin'] = torch.matmul(emb_space_vector_normed, embedding_cp_normed.t())
+            else:
+                scores = torch.matmul(emb_space_vector_normed, embedding_cp_normed.t())
         elif self.score_fn.startswith('dot'):
             if self.score_fn.endswith('not'):
                 scores = torch.matmul(hiddens, Variable(self.embedding.weight.t().data))

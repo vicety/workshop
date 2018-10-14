@@ -39,7 +39,7 @@ if __name__ == '__main__':
                         help="Random seed")
     parser.add_argument('-model', default='seq2seq', type=str,
                         help="Model selection")
-    parser.add_argument('-score', default='hubness', type=str,  # 影响网络结构
+    parser.add_argument('-score', default='disc', type=str,  # 影响网络结构
                         help="score_fn")
     parser.add_argument('-pretrain', default=True, type=bool,
                         help="load pretrain embedding")
@@ -246,7 +246,7 @@ def train(epoch):
         print(targets[:3])
         time.sleep(10)
         '''
-        loss, num_total, _, _, _ = model.compute_loss(outputs, targets, opt.memory)
+        loss, num_total, _, _, _ = model.compute_loss(outputs, targets, opt.memory, from_known)
 
         # TODO: make sure what the num_total and the follow _ _ _ is about.
         total_loss += loss

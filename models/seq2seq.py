@@ -53,21 +53,25 @@ class seq2seq(nn.Module):
             self.criterion['softmax'] = models.criterion(tgt_vocab_size, use_cuda, config)
             self.criterion['margin'] = models.margin_criterion(tgt_vocab_size, use_cuda, config)
         elif config.score == 'hubness':
-            self.criterion = models.margin_criterion(tgt_vocab_size, use_cuda, config)
+            self.criterion = models.mse_criterion(tgt_vocab_size, use_cuda, config)
         elif config.score == 'softmax':
             self.criterion = models.criterion(tgt_vocab_size, use_cuda, config)
+        elif config.score == 'disc':
+            self.criterion = {}
+            self.criterion['softmax'] = models.criterion(2, use_cuda, config)
+            self.criterion['margin'] = models.margin_criterion_with_mask(tgt_vocab_size, use_cuda, config)
         else:
             print('no such score function')
             os.abort()
         self.log_softmax = nn.LogSoftmax(dim=1)
 
     # used in tarin to evaluate himself
-    def compute_loss(self, hidden_outputs, targets, memory_efficiency):
+    def compute_loss(self, hidden_outputs, targets, memory_efficiency, from_known):
         if memory_efficiency:
             return models.memory_efficiency_cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion,
                                                                self.config)
         else:
-            return models.cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion, self.config, self)
+            return models.cross_entropy_loss(hidden_outputs, self.decoder, targets, self.criterion, self.config, self, from_known)
 
 
     def forward(self, src, src_len, tgt, tgt_len):
