@@ -12,7 +12,7 @@ mask: True
 schedule: True
 bidirec: True
 start_decay_at: 5
-score: 'disc'
+score: 'hybrid'
 freeze: False
 N: 5
 err_mul: 0.2
@@ -26,13 +26,13 @@ decoder_hidden_size: 256
 num_layers: 2
 dropout: 0.5
 max_tgt_len: 8
-eval_interval: 50
+eval_interval: 500
 save_interval: 500
 max_generator_batches: 32
 metric: ['hamming_loss', 'micro_f1']
 shared_vocab: False
 beam_size: 1
-GRL_fraction: 1
+GRL_fraction: 0
 softmax_linear_lr_mul: 0.0015
 k_max: 0
 cheat: 0

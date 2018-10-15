@@ -97,6 +97,16 @@ class seq2seq(nn.Module):
         tgt = torch.index_select(tgt, dim=1, index=indices)
         from_known = torch.index_select(from_known, dim=1, index=indices)
 
+        import time
+        try:
+            print(src)
+        except:
+            time.sleep(10)
+        try:
+            print(lengths)
+        except:
+            time.sleep(10)
+            
         contexts, state = self.encoder(src, lengths.data.tolist())  # contexts [maxlen, batch, hidden*num_dirc]
         # state -> (h, c) -> [num_layer, batch, dir * hidden]
         # input, initial_state, context

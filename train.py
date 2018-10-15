@@ -39,7 +39,7 @@ if __name__ == '__main__':
                         help="Random seed")
     parser.add_argument('-model', default='seq2seq', type=str,
                         help="Model selection")
-    parser.add_argument('-score', default='disc', type=str,  # 影响网络结构
+    parser.add_argument('-score', default='hybrid', type=str,  # 影响网络结构
                         help="score_fn")
     parser.add_argument('-pretrain', default=True, type=bool,
                         help="load pretrain embedding")
