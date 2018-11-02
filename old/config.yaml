@@ -34,5 +34,5 @@ shared_vocab: False
 beam_size: 1
 GRL_fraction: 0
 softmax_linear_lr_mul: 0.0025
-k_max: 1
+k_max: 2
 cheat: 0

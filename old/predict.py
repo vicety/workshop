@@ -7,6 +7,7 @@ import data.dataloader as dataloader
 import data.utils as utils
 import data.dict as dict
 from optims import Optim
+from stat_predict import print_stat
 
 from optims import Optim
 import lr_scheduler as L
@@ -27,7 +28,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='train.py')
     parser.add_argument('-config', default='config.test.yaml', type=str,
                         help="config file")
-    parser.add_argument('-gpus', default=[0], nargs='+', type=int,
+    parser.add_argument('-gpus', default=[3], nargs='+', type=int,
                         help="Use CUDA on the listed devices.")
     parser.add_argument('-restore', default='./checkpoint.pt', type=str,  # best_micro_f1_
                         help="restore checkpoint")
@@ -227,3 +228,4 @@ def eval(epoch):
 
 if __name__ == '__main__':
     eval(0)
+    print_stat(len(new_labels))
